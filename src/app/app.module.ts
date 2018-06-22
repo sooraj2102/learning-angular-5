@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {FormsModule} from '@angular/forms';
 import { RouterModule,Routes} from '@angular/router';
 import { AppComponent } from './app.component';
 import {FormComponent} from './form/form.component';
@@ -28,7 +28,8 @@ const route:Routes = [
   imports: [
   RouterModule.forRoot(route),
     BrowserModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

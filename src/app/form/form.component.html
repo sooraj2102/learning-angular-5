@@ -1,1 +1,10 @@
-<div >{{title}}</div>
+<div class="row">
+	<div class="col-mg-12">
+		<div class="col-mg-6">
+		<label class="control-label">select Course</label>
+		   <select [(ngModel)] = "course" (ngModelChange) = "onChange()"  class="form-control">
+		   	<option *ngFor = "let c of courses" [value] = "c.id">{{c.course_name}}</option>
+		   </select>
+		</div>
+	</div>
+</div>
