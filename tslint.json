@@ -113,7 +113,7 @@
       true,
       "check-branch",
       "check-decl",
-      "check-operator",
+      "check-operator", 
       "check-separator",
       "check-type"
     ],
