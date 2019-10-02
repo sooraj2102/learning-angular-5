@@ -12,3 +12,4 @@ describe('ang App', () => {
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
+ 
